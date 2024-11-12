@@ -6,7 +6,7 @@ import httpx, random, locale
 app = FastAPI(title="Previsão de temperatura")
 locale.setlocale(locale.LC_TIME, 'Portuguese_Brazil.1252')  #Trazer os dias da semana em português
 
-API_Key_WeatherSite = "00ce2ac84ab3031ff8efbcc500cb79f6"
+API_Key_WeatherSite = ""
 descricao_aleatoria = "Céu limpo", "Poucas nuvens", "Nuvens dispersas", "Nuvens quebradas", "Chuva leve", "Chuva", "Tempestade", "Névoa", "Neblina", "Nebuloso", "Nuvens densas"
 descricao_dict = {
     "clear sky": "Céu limpo",
